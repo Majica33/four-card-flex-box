@@ -5,40 +5,40 @@
 }  
 
 body{
-    margin-top:5vh;
+    margin-top: 5vh;
     background-color: hsl(0, 0%, 98%);
 }
 
 .full-section {
-    width:90%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
 }
 
 h1 {
-    font-weight:200;
-    color:hsl(229, 6%, 66%);
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
 }
 
 h2 {
-    font-size:2rem;
-    font-weight:600;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .description {
-    color:hsl(229, 6%, 66%);
-    padding:10px;
-    font-size:17px;
+    color: hsl(229, 6%, 66%);
+    padding: 10px;
+    font-size: 17px;
 }
 p {
-    font-size:15px;
-    color:hsl(229, 6%, 66%);
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
 }
 
-.header-section{
+.header-section {
     text-align: center;
 }
 
-.card-section{
+.card-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,17 +46,17 @@ p {
 
 }
 
-.card{
-    background-color:#ffffff;
+.card {
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    padding:30px;
+    padding: 30px;
     border-radius: 5px;
-    box-shadow:0px 15px 20px 0px hsl(212, 86%, 64%, 0.2);
+    box-shadow: 0px 15px 20px 0px hsl(212, 86%, 64%, 0.2);
     border-top: 2px;
-    height:22vh;
-    width:20vw;
-    margin:20px;
+    height: 22vh;
+    width: 20vw;
+    margin: 20px;
 }
 
 .card:hover {
@@ -65,7 +65,7 @@ p {
 }
 
 .icon {
-    margin:auto 0 0 auto;
+    margin: auto 0 0 auto;
 }
 
 .team {
@@ -73,7 +73,7 @@ p {
 }
 
 .karma {
-    margin-top:15px;
+    margin-top: 15px;
     border-top: 5px solid hsl(34, 97%, 64%);
 }
 
@@ -85,46 +85,44 @@ p {
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     .card-section {
         display: flex;
         flex-direction: column;
     }
     .card {
-        width:80vw;
+        width: 80vw;
         margin-bottom: 2rem;
     }
     p {
-        font-size:0.9rem;
+        font-size: 0.9rem;
     }
     h3 {
-        font-size:1.6rem;
+        font-size: 1.6rem;
     }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
     h1,h2 {
-        font-size:1.5rem;
+        font-size: 1.5rem;
     }
 
     h3 {
-        font-size:1.2rem;
+        font-size: 1.2rem;
     }
     p {
-        font-size:0.8rem;
+        font-size: 0.8rem;
     }
     .subtitle {
-        font-size:1rem;
+        font-size: 1rem;
     }
     .card-section {
         display: flex;
         flex-direction: column;
     }
     .card {
-        width:60vw;
+        width: 60vw;
         height: 15vh;
         margin-bottom: 2rem;
     }
 }
-
-
